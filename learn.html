@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: orange;
+        }
+        h1, h2 {
+            color: #333;
+            text-decoration: underline;
+        }
+        .ingredients-list, .steps-list {
+            padding-left: 20px;
+        }
+        a {
+            color: #ce2264;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .steps-list {
+            list-style-type: lower-roman;
+        }
+        .ingredients-list {
+            list-style-image: url('HTML/images/cake_PNG96857.png');
+        }
+        #comments {
+            border: 1px solid #0d1a8d;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #f9f9f9;
+        }
+        p span {
+            font-style: italic;
+        }
+        p span:last-child {
+            text-decoration: underline;
+        }
+        .special-span {
+            font-style: normal;
+            color: red;
+        }
+
+        /* Responsive Design Adjustments */
+        @media (max-width: 400px) {
+            body {
+                font-size: 12px;
+            }
+            h1, h2 {
+                font-size: 20px;
+            }
+            .ingredients-list, .steps-list {
+                padding-left: 5px;
+            }
+            img {
+                max-width: 30%;
+            }
+        }
+
+        @media (min-width: 401px) and (max-width: 750px) {
+            body {
+                font-size: 14px;
+            }
+            h1, h2 {
+                font-size: 24px;
+            }
+            .ingredients-list, .steps-list {
+                padding-left: 10px;
+            }
+            img {
+                max-width: 50%;
+            }
+        }
+
+        @media (min-width: 751px) {
+            body {
+                font-size: 16px;
+            }
+            h1, h2 {
+                font-size: 28px;
+            }
+            .ingredients-list, .steps-list {
+                padding-left: 20px;
+            }
+            img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="main-heading">Dish Recipe</h1>
+    <p>This is a <span class="special-span">delicious cake recipe</span> that I absolutely adore. The combination of flour, sugar, and eggs creates a moist and flavorful base, while the baking powder and salt add the <span>perfect amount of leavening and seasoning</span>. The addition of milk and vegetable oil gives it a rich texture and a delightful taste. 😋</p>
+
+    <h2>Ingredients</h2>
+    <ul class="ingredients-list">
+        <li>2 cups of flour</li>
+        <li>1 cup of sugar</li>
+        <li>1 teaspoon of baking powder</li>
+        <li>1/2 teaspoon of salt</li>
+        <li>1 cup of milk</li>
+        <li>2 eggs</li>
+        <li>1/2 cup of vegetable oil</li>
+    </ul>
+
+    <h2>Preparation Steps</h2>
+    <ol class="steps-list">
+        <li>Preheat your oven to 350°F (175°C). 🔥</li>
+        <li>In a large bowl, combine the flour, sugar, baking powder, and salt. 🍚</li>
+        <li>In another bowl, mix the milk, eggs, and vegetable oil. 🥛🍳🥫</li>
+        <li>Pour the wet ingredients into the dry ingredients and stir until just combined. 🔄</li>
+        <li>Pour the batter into a greased 9x9 inch baking dish. 🥘</li>
+        <li>Bake for 30 minutes or until a toothpick inserted into the center comes out clean. 🕰️</li>
+        <li>Let the cake cool in the pan for 10 minutes before removing it to a wire rack to cool completely. 🍽️</li>
+    </ol>
+
+    <h2>Finished Dishes</h2>
+    <ul>
+        <li>
+            <img src="https://th.bing.com/th/id/R.7a4727d9d1e8483e063c1baa46679686?rik=E379F1Rl73r1bg&pid=ImgRaw&r=0" width="100" height="100" alt="Finished Dish">
+        </li>
+        <li>
+            <img src="https://fthmb.tqn.com/oKUWFBj-6ZE-cojH_YWWoVIKxek=/2761x3607/filters:fill(auto,1)/slice-of-layer-cake-88168351-589887495f9b5874ee8b4e30.jpg"width="100" height="100" alt="Another Finished Dish">
+        </li>
+        <li>
+            <img src="https://preppykitchen.com/wp-content/uploads/wordpress-popular-posts/1448-featured-150x150@2.5x.jpg" width="100" height="100" alt="Yet Another Finished Dish">
+        </li>
+        <li>
+            <img src="https://th.bing.com/th/id/OIP.21b-1js89Bv4q-Qe9xLgxwAAAA?w=240&h=360&rs=1&pid=ImgDetMain" width="100" height="100" alt="Final Finished Dish">
+        </li>
+    </ul>
+
+    <h2>Recommended Recipes</h2>
+    <ul>
+        <li><a href="https://iambaker.net/almond-pecan-sheet-cake/" target="_blank">Almond Pecan Sheet Cake</a></li>
+        <li><a href="https://www.tastesoflizzyt.com/category/recipes/" target="_blank">Tastes of Lizzy T Recipes</a></li>
+        <li><a href="https://iambaker.net/snickerdoodle-cheesecake/" target="_blank">Snickerdoodle Cheesecake</a></li>
+        <li><a href="https://www.womansworld.com/recipe/dessert/gingerbread-cake-169045" target="_blank">Gingerbread Cake</a></li>
+        <li><a href="https://www.tastesoflizzyt.com/shirley-temple-cake/" target="_blank">Shirley Temple Cake</a></li>
+    </ul>
+
+    <h2>Tips and Tricks</h2>
+    <p>Here are some tips to make your cake even better:</p>
+    <ul>
+        <li>Use fresh eggs for a richer flavor.</li>
+        <li>Add a pinch of vanilla extract for a subtle hint of sweetness.</li>
+        <li>Consider using a cake mix for a quicker and easier option.</li>
+    </ul>
+
+    <h2>User Reviews</h2>
+    <p>Have you tried this recipe? Share your experience in the comments below!</p>
+    <div id="comments">
+        <!-- Comments section can be implemented here -->
+    </div>
+</body>
+</html>
